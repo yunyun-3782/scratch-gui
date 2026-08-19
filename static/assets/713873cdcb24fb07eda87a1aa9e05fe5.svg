@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="white">
+  <!-- Outer hexagon border -->
+  <path d="M512 40 L940 260 L940 764 L512 984 L84 764 L84 260 Z" 
+        fill="none" stroke="white" stroke-width="40" stroke-linejoin="round"/>
+  <!-- Inner hexagon border -->
+  <path d="M512 120 L870 310 L870 714 L512 904 L154 714 L154 310 Z" 
+        fill="none" stroke="white" stroke-width="16" stroke-linejoin="round" opacity="0.3"/>
+  <!-- Central core circle -->
+  <circle cx="512" cy="512" r="60" fill="white" opacity="0.9"/>
+  <circle cx="512" cy="512" r="35" fill="white"/>
+  <!-- Network lines radiating from center -->
+  <!-- Top -->
+  <line x1="512" y1="452" x2="512" y2="250" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="512" cy="250" r="22" fill="white" opacity="0.8"/>
+  <!-- Top-right -->
+  <line x1="555" y1="475" x2="720" y2="310" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="720" cy="310" r="18" fill="white" opacity="0.8"/>
+  <!-- Right -->
+  <line x1="572" y1="512" x2="780" y2="512" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="780" cy="512" r="16" fill="white" opacity="0.8"/>
+  <!-- Bottom-right -->
+  <line x1="555" y1="549" x2="720" y2="714" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="720" cy="714" r="20" fill="white" opacity="0.8"/>
+  <!-- Bottom -->
+  <line x1="512" y1="572" x2="512" y2="774" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="512" cy="774" r="18" fill="white" opacity="0.8"/>
+  <!-- Bottom-left -->
+  <line x1="469" y1="549" x2="304" y2="714" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="304" cy="714" r="20" fill="white" opacity="0.8"/>
+  <!-- Left -->
+  <line x1="452" y1="512" x2="244" y2="512" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="244" cy="512" r="16" fill="white" opacity="0.8"/>
+  <!-- Top-left -->
+  <line x1="469" y1="475" x2="304" y2="310" stroke="white" stroke-width="12" opacity="0.7"/>
+  <circle cx="304" cy="310" r="18" fill="white" opacity="0.8"/>
+  <!-- Secondary nodes (smaller, scattered) -->
+  <circle cx="620" cy="200" r="12" fill="white" opacity="0.5"/>
+  <circle cx="400" cy="200" r="10" fill="white" opacity="0.5"/>
+  <circle cx="820" cy="420" r="10" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="420" r="12" fill="white" opacity="0.5"/>
+  <circle cx="820" cy="620" r="10" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="620" r="10" fill="white" opacity="0.5"/>
+  <circle cx="620" cy="824" r="12" fill="white" opacity="0.5"/>
+  <circle cx="400" cy="824" r="10" fill="white" opacity="0.5"/>
+  <!-- Cross connections -->
+  <line x1="720" y1="310" x2="620" y2="200" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="304" y1="310" x2="400" y2="200" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="780" y1="512" x2="820" y2="420" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="244" y1="512" x2="200" y2="420" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="720" y1="714" x2="820" y2="620" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="304" y1="714" x2="200" y2="620" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="512" y1="774" x2="620" y2="824" stroke="white" stroke-width="8" opacity="0.4"/>
+  <line x1="512" y1="774" x2="400" y2="824" stroke="white" stroke-width="8" opacity="0.4"/>
+</svg>
